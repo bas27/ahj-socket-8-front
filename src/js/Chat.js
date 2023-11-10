@@ -46,7 +46,7 @@ export default class Chat {
   }
 
   wssConnect() {
-    this.ws = new WebSocket(`ws://${this.url}/ws`);
+    this.ws = new WebSocket(`wss://${this.url}/ws`);
     this.ws.addEventListener('open', this.onWsOpen);
     this.ws.addEventListener('message', this.onWsMessage);
     this.ws.addEventListener('close', this.onWsClose);
