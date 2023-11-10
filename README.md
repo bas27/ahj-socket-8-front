@@ -1,5 +1,5 @@
 # Домашнее задание к занятию "8. EventSource, Websockets"
-# Frontend
+# Frontend [![Build status](https://ci.appveyor.com/api/projects/status/6giau870hmv6ugvy?svg=true)](https://ci.appveyor.com/project/bas27/ahj-socket-8-front)
 
 Правила сдачи задания:
 
